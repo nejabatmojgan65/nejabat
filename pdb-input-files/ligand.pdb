@@ -1,0 +1,37 @@
+REMARK  99                                                                      
+REMARK  99 MOE v2019.01 (Chemical Computing Group ULC) Sun Dec 03 21:38:32 2023 
+HETATM    1  C1  GOX M 921      46.871 119.891  52.844  1.00 12.77           C  
+HETATM    2  C2  GOX M 921      47.752 119.220  53.910  1.00 11.14           C  
+HETATM    3  N5  GOX M 921      46.714 121.224  52.640  1.00 13.32           N  
+HETATM    4  O2  GOX M 921      47.199 118.054  54.530  1.00 11.49           O  
+HETATM    5  C3  GOX M 921      48.249 120.259  54.889  1.00 11.04           C  
+HETATM    6  O3  GOX M 921      49.347 119.649  55.564  1.00 11.04           O  
+HETATM    7  C4  GOX M 921      48.648 121.507  54.062  1.00 12.38           C  
+HETATM    8  O4  GOX M 921      49.290 122.463  54.907  1.00 11.97           O  
+HETATM    9  C5  GOX M 921      47.312 122.173  53.572  1.00 13.58           C  
+HETATM   10  N1  GOX M 921      46.180 119.101  52.013  1.00 14.84           N  
+HETATM   11  O7  GOX M 921      45.512 119.568  50.983  1.00 19.98           O  
+HETATM   12  C6  GOX M 921      47.406 123.456  52.773  1.00 13.67           C  
+HETATM   13  O6  GOX M 921      48.187 123.278  51.578  1.00 15.18           O  
+HETATM   14  H2  GOX M 921      46.915 117.461  53.831  1.00 11.49           H  
+HETATM   15  H3  GOX M 921      49.007 118.891  56.046  1.00 11.04           H  
+HETATM   16  H4  GOX M 921      50.110 122.072  55.217  1.00 11.97           H  
+HETATM   17  H6  GOX M 921      48.210 124.120  51.118  1.00 15.18           H  
+CONECT    1    2    3    3   10
+CONECT    2    1    4    5
+CONECT    3    1    1    9
+CONECT    4    2   14
+CONECT    5    2    6    7
+CONECT    6    5   15
+CONECT    7    5    8    9
+CONECT    8    7   16
+CONECT    9    3    7   12
+CONECT   10    1   11   11
+CONECT   11   10   10
+CONECT   12    9   13
+CONECT   13   12   17
+CONECT   14    4
+CONECT   15    6
+CONECT   16    8
+CONECT   17   13
+END
